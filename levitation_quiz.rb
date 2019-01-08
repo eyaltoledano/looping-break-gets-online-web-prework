@@ -2,7 +2,7 @@
 def levitation_quiz
   puts "What is the spell that enacts levitation?"
   question = gets.chomp
-  if question == "Wingardium Leviosa"
+  until question == "Wingardium Leviosa"
     puts "You passed the quiz!"
   else
     question
