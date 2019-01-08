@@ -6,6 +6,8 @@ def levitation_quiz
 
   if question == "Wingardium Leviosa"
     puts "You passed the quiz!"
+  else
+    question
   end
 
 end
