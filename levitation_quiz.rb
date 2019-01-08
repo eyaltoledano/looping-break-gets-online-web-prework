@@ -1,4 +1,3 @@
-counter = 1
 def levitation_quiz
   puts "What is the spell that enacts levitation?"
   question = gets.chomp
