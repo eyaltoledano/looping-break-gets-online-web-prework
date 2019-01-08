@@ -4,3 +4,5 @@ def levitation_quiz
   question = gets.chomp
   question == "Wingardium Leviosa" ? puts "You passed the quiz!" : question
 end
+
+levitation_quiz
